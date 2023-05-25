@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.center {
+    max-width: 1146px;
+    width: 100%;
+    margin: 0 auto;
+    /* outline: 2px solid #040404; */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    padding: 14px 0;
+}
+
+.header {
+    padding: 24px 0;
+    margin: 0 0 25px 0;
+    box-sizing: border-box;
+
+}
+
+.header-menu-img {}
+
+.header-menu {}
+
+.menu-list {
+    margin: 0 0 0 500px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.menu-item {}
+
+.menu-link {
+    color: #040404;
+}
+
+.menu-link:hover {
+    color: #F25B26;
+}
+
+.menu-link:active {
+    color: #040404;
+}
+
+.top-info {
+    display: flex;
+    gap: 39px;
+    margin: 0 auto 49px auto;
+}
+
+.top-content {
+    max-width: 522px;
+}
+
+.top-content-title {
+    margin: 0 0 17px 0;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.top-content-txt {
+    margin: 0 0 16px 0;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+}
+
+.top-content-btn-wrp {
+    display: flex;
+    gap: 72px;
+}
+
+.top-content-btn {
+    display: block;
+    padding: 15px 35px;
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 18px;
+    border-radius: 50px;
+    border: none;
+    color: #AAAAAA;
+}
+
+.top-content-btn:hover {
+    background-color: #F25822;
+    color: #fff;
+    cursor: pointer;
+}
+
+.top-content-btn:active {
+    background-color: #fff;
+    color: #AAAAAA;
+}
+
+.top-info-img {
+    box-sizing: border-box;
+}
+
+.top-logos {}
+
+.top-logos-list {
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.top-logos-list-item {}
+
+/* =================ADVANTAGES================= */
+
+.advantages {
+    margin: 45px auto 0 auto;
+}
+
+.advantages-top {
+    padding: 90px auto;
+}
+
+.advantages-list-top {
+    display: flex;
+    min-height: 490px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    /* outline: 1px solid orangered; */
+}
+
+.advantages-top-item {}
+
+.advantages-top-icon {}
+
+.icon-one:hover {
+    background: rgba(242, 88, 34, 0.25);
+    border-radius: 15px;
+}
+
+.icon-two:hover {
+    background: rgba(20, 146, 17, 0.28);
+    border-radius: 15px;
+}
+
+.icon-three:hover {
+    background: rgba(255, 205, 29, 0.24);
+    border-radius: 15px;
+}
+
+.advantages-title {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.advantages-bot {
+    padding: 90px auto;
+}
+
+.advantages-bot-title {
+    text-align: center;
+}
+
+.advantages-txt {
+    margin: 17px auto 25px auto;
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.small-txt {
+    margin: 22px auto 40px auto;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #AAAAAA;
+}
+
+.advantages-link {
+    margin: 25px 0;
+    font-size: 11px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.big-title {
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.big-txt {
+    margin: 19px auto 55px auto;
+}
+
+
+
+.advantages-bot {
+    padding: 90px auto 100px auto;
+    justify-content: center;
+}
+
+.advantages-bot-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px auto;
+    /* outline: 2px solid green; */
+}
+
+.advantages-bot-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.advantages-bot-item {
+    max-width: 362px;
+    width: 100%;
+    align-content: center;
+    /* outline: 1px solid firebrick; */
+}
+
+.advantages-bot-photo {
+    width: 370px;
+    height: 270px;
+    background-image: url(../img/advantages-bot-photo1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.advantages-bot-list>li:nth-child(2) .advantages-bot-photo {
+    background-image: url(../img/advantages-bot-photo2.png);
+}
+
+.advantages-bot-list>li:nth-child(3) .advantages-bot-photo {
+    background-image: url(../img/advantages-bot-photo3.png);
+}
+
+
+.advantages-bot-btn {
+    width: 150px;
+    height: 50px;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    color: #000000;
+}
+
+.advantages-bot-btn:hover {
+    background-color: #F25822;
+    color: #fff;
+    cursor: pointer;
+}
+
+.advantages-bot-btn:active {
+    background-color: #802707;
+    color: aqua;
+    cursor: pointer;
+}
