@@ -200,6 +200,16 @@ a {
     color: #000000;
 }
 
+.advantages-link:hover {
+    color: #F25822;
+    cursor: pointer;
+}
+
+.advantages-link:active {
+    color: #974a2e;
+    cursor: pointer;
+}
+
 .big-title {
     font-size: 45px;
     line-height: 53px;
