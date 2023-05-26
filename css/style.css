@@ -214,6 +214,7 @@ a {
 .advantages-bot {
     padding: 90px auto 100px auto;
     justify-content: center;
+    background-color: #FAFAFA;
 }
 
 .advantages-bot-content {
@@ -237,6 +238,10 @@ a {
     width: 100%;
     align-content: center;
     /* outline: 1px solid firebrick; */
+}
+
+.advantages-bot-item:hover {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
 }
 
 .advantages-bot-photo {
